@@ -7,7 +7,7 @@ window.bgpic("images/background.png")
 window.screensize(1000, 400)
 
 
-ENEMY_COUNT = 5
+ENEMY_COUNT = 3
 BASE_X, BASE_Y = 0, - 300
 
 
@@ -95,8 +95,7 @@ while True:
     move_missiles(missiles = our_missiles)
     move_missiles(missiles = enemy_missiles)
 
-print("hello")
-print("hello")
+
 
 
 
