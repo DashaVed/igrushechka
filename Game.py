@@ -96,6 +96,7 @@ while True:
     move_missiles(missiles = enemy_missiles)
 
 print("hello")
+print("hello")
 
 
 
