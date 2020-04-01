@@ -7,7 +7,7 @@ window.bgpic("images/background.png")
 window.screensize(1000, 400)
 
 
-ENEMY_COUNT = 3
+ENEMY_COUNT = 5
 BASE_X, BASE_Y = 0, - 300
 
 
