@@ -1,12 +1,7 @@
-from turtle import *
-window = turtle.Screen()
-pen = turtle.color('red', 'yellow')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
-window.mainloop()
+x = int(input())
+R = 0
+while x>0:
+    d = x%10
+    R = 10*R +d
+    x = x// 10
+print(R)
